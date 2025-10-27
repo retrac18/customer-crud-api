@@ -47,14 +47,14 @@ API Endpoints
 | **PUT**    | `/api/customers/:id` | Update customer details     |
 | **DELETE** | `/api/customers/:id` | Delete a customer           |
 
-🧠 Key Features
-    ✅ Full CRUD operations
-    ✅ Type-safe models and routes
-    ✅ MongoDB integration with Mongoose
-    ✅ Environment-based configuration
-    ✅ Centralized error handling
-    ✅ Hot reload using ts-node-dev
-    ✅ Ready for Docker or cloud deployment
+## 🧠 Key Features
+- ✅ Full CRUD operations
+- ✅ Type-safe models and routes    
+- ✅ MongoDB integration with Mongoose
+- ✅ Environment-based configuration
+- ✅ Centralized error handling
+- ✅ Hot reload using ts-node-dev
+- ✅ Ready for Docker or cloud deployment
 
 ---
 
