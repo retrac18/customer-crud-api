@@ -27,35 +27,9 @@ You can use this as a starter project for building more complex business applica
 
 ---
 
-## 📁 Folder Structure
-
-customer-crud-api/
-├─ .env
-├─ .gitignore
-├─ package.json
-├─ tsconfig.json
-├─ src/
-│ ├─ index.ts # App entry
-│ ├─ config/
-│ │ └─ db.ts # MongoDB connection
-│ ├─ models/
-│ │ └─ customer.model.ts # Customer schema
-│ ├─ controllers/
-│ │ └─ customer.controller.ts# CRUD logic
-│ ├─ routes/
-│ │ └─ customer.routes.ts # Express routes
-│ ├─ middlewares/
-│ │ └─ errorHandler.ts # Centralized error handler
-│ └─ utils/
-│ └─ validators.ts # (optional) custom validators
-└─ README.md
-
-
----
-
 ## ⚙️ Installation & Setup
 
-### 1️⃣ Prerequisites
+### Prerequisites
 Make sure the following are installed:
 - [Node.js 18+](https://nodejs.org)
 - [MongoDB Community Server](https://www.mongodb.com/try/download/community)
@@ -63,16 +37,6 @@ Make sure the following are installed:
 - [Git](https://git-scm.com/)
 
 ---
-
-### 2️⃣ Clone the Repository
-Using **GitHub Desktop**:
-- Click **“Clone Repository” → “URL”**
-- Paste your repo URL and choose a local folder.
-
-Or using terminal:
-```bash
-git clone https://github.com/retrac18/customer-crud-api.git
-cd customer-crud-api
 
 API Endpoints
 | Method     | Endpoint             | Description                 |
@@ -91,3 +55,16 @@ API Endpoints
     ✅ Centralized error handling
     ✅ Hot reload using ts-node-dev
     ✅ Ready for Docker or cloud deployment
+
+---
+
+### Clone the Repository
+Using **GitHub Desktop**:
+- Click **“Clone Repository” → “URL”**
+- Paste your repo URL and choose a local folder.
+
+Or using terminal:
+```bash
+git clone https://github.com/retrac18/customer-crud-api.git
+cd customer-crud-api
+
